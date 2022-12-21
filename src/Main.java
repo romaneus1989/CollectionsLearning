@@ -17,5 +17,13 @@ public class Main {
 
 
 
+        ArrayList<Cat> catsList = new ArrayList();
+
+        for (Cat cat : cats){
+            catsList.add(cat);
+        }
+        catsList.add(new Cat("Бегемот"));
+        System.out.println(catsList.toString());
+
     }
 }
